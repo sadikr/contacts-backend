@@ -1,0 +1,30 @@
+{
+  "name": "contacts-backend",
+  "version": "0.0.1",
+  "description": "Contacts application backend part",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node target/index.js",
+    "build": "babel *.js -d dist --presets es2015,stage-2"
+  },
+  "author": "Sadik Rupani",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "restify": "~4.1.1",
+    "mongoose": "~4.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-memory-cache": "^0.3.0",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-shell": "^0.5.2",
+    "jshint": "^2.9.3",
+    "winston": "^2.2.0"
+  }
+}
